@@ -30,7 +30,7 @@ default['ossec']['server']['maxagents'] = 256
 
 # used to populate config files and preload values for install
 default['ossec']['user']['language'] = "en"
-default['ossec']['user']['install_type'] = "local"
+default['ossec']['user']['install_type'] = "server"
 default['ossec']['user']['dir'] = "/var/ossec"
 default['ossec']['user']['delete_dir'] = true
 default['ossec']['user']['active_response'] =  true
